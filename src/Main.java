@@ -37,5 +37,15 @@ public class Main {
         c1.setRadius(-21);
         System.out.println(c1.getRadius());
 
-    }
+
+        Triangle myTriangle = new Triangle("Red", 5.0, 3.0);
+
+        // Print triangle info
+        System.out.println("Triangle Info:");
+        System.out.println(myTriangle);
+        System.out.println("Area: " + myTriangle.getArea());
+
+        // Change properties
+        myTriangle.setColor("Blue");
+        System.out.println("\nUpdated color: " + myTriangle.getColor());    }
 }
